@@ -1,0 +1,75 @@
+header{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+header .bg_image{
+    background-image: url("../img/Group_img.jpg");
+    background-position: center top;
+    padding: 64px 0px;
+}
+
+.bg_image .container h2{
+    color: #012D74;
+    font-size: 60px;
+    font-weight: 700;
+}
+.bg_image .container span{
+    color: #012D74;
+    font-size: 20px;
+}
+section .container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+section .container h4,
+section .container p{
+    color: #012D74;
+    line-height: 34px;
+}
+
+section .container h4{
+    font-weight: 600;
+    font-size: 32px;
+}
+section .container .row{
+    justify-content: space-evenly;
+}
+.card_sect{
+    width: 100%;
+    max-width: 360px;
+    height: 436px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0px #cececed9;
+    cursor: pointer;
+}
+
+.card_sect:hover{
+    box-shadow: 0 0 8px 3px #757575d9;
+}
+
+.imagen_card{
+    background-image: url("../img/Entrenador_digital.png");
+    padding: 110px 0px;
+    background-position: center;
+    background-size: 409px;
+}
+
+.img_1{
+    background-image: url("../img/ilustracion(1).png");   
+}
+
+.img_2{
+    background-image: url("../img/ilustracion(2)).png");   
+}
+
+section .card_sect .container h4{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+section .card_sect .container p{
+    line-height: 18px;
+    color: #000;
+}
